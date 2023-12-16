@@ -1,4 +1,4 @@
-# Java-Advanced-January-2024
+# Java Advanced January 2024
 
 ![java-advanced-softuni](java-advanced-softuni.png)
 
