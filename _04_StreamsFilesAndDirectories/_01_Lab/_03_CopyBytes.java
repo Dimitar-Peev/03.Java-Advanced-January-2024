@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class _03_CopyBytes_v2 {
+public class _03_CopyBytes {
     public static void main(String[] args) throws IOException {
 
         String inputPath = "input.txt";
