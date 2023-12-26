@@ -8,11 +8,11 @@ public class _03_CopyBytes {
     public static void main(String[] args) throws IOException {
 
         String inputPath = "input.txt";
-        String ouputPath = "03.CopyBytesOutput.txt";
+        String outputPath = "03.CopyBytesOutput.txt";
 
         FileInputStream inputStream = new FileInputStream(inputPath);
 
-        FileOutputStream outputStream = new FileOutputStream(ouputPath);
+        FileOutputStream outputStream = new FileOutputStream(outputPath);
 
         int oneByte = inputStream.read();
 
