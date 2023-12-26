@@ -20,7 +20,7 @@ public class _05_WriteEveryThirdLine {
         List<String> lines = new ArrayList<>();
 
         for (int i = 2; i < strings.size(); i += 3) {
-            lines.add(strings.get(i) + System.lineSeparator());
+            lines.add(strings.get(i));
         }
 
         Files.write(Paths.get(outputPath), lines, StandardCharsets.UTF_8);
