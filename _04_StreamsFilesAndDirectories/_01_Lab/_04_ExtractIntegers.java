@@ -10,11 +10,11 @@ public class _04_ExtractIntegers {
     public static void main(String[] args) throws FileNotFoundException {
 
         String inputPath = "input.txt";
-        String ouputPath = "04.ExtractIntegersOutput.txt";
+        String outputPath = "04.ExtractIntegersOutput.txt";
 
         Scanner scanner = new Scanner(new FileInputStream(inputPath));
 
-        PrintWriter printer = new PrintWriter(new FileOutputStream(ouputPath));
+        PrintWriter printer = new PrintWriter(new FileOutputStream(outputPath));
 
         while (scanner.hasNext()) {
             if (scanner.hasNextInt()) {
