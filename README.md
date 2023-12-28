@@ -14,6 +14,9 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_01_StacksAndQueues/_01_Lab)
 - [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_01_StacksAndQueues/_02_Exercise)
 
+### Multidimensional Arrays
+- [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_02_MultidimensionalArrays/_01_Lab)
+
 ### Sets and Maps Advanced
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_03_SetsAndMapsAdvanced/_01_Lab)
 
