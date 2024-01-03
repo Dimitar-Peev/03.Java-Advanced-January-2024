@@ -14,7 +14,6 @@ public class Main {
         Map<Integer, BankAccount> bank = new HashMap<>();
 
         while (!"End".equals(input)) {
-
             String[] inputArr = input.split("\\s+");
             String command = inputArr[0];
 
