@@ -60,10 +60,10 @@ public class Cage {
         Rabbit rabbit = null;
 
         for (int i = 0; i < this.data.size(); i++) {
-            Rabbit bunny = this.data.get(i);
-            if (bunny.getSpecies().equals(name)) {
-                bunny.setAvailable(false);
-                rabbit = bunny;
+            if (this.data.get(i).getName().equals(name)) {
+                this.data.get(i).setAvailable(false);
+                rabbit = this.data.get(i);
+                break;
             }
         }
         return rabbit;
@@ -97,6 +97,6 @@ public class Cage {
             }
         }
 
-        return sb.toString();
+        return sb.toString().trim();
     }
 }
