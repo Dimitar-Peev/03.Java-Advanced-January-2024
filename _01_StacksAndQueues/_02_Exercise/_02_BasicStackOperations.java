@@ -13,11 +13,11 @@ public class _02_BasicStackOperations {
 
         Deque<Integer> stack = new ArrayDeque<>();
 
-        for (int count = 1; count <= n; count++) {
+        for (int count = 0; count < n; count++) {
             stack.push(scanner.nextInt());
         }
 
-        for (int count = 1; count <= s; count++) {
+        for (int count = 0; count < s; count++) {
             stack.pop();
         }
 
