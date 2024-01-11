@@ -13,11 +13,11 @@ public class _04_BasicQueueOperations {
 
         Queue<Integer> queue = new ArrayDeque<>();
 
-        for (int count = 1; count <= n; count++) {
+        for (int count = 0; count < n; count++) {
             queue.offer(scanner.nextInt());
         }
 
-        for (int count = 1; count <= s; count++) {
+        for (int count = 0; count < s; count++) {
             queue.poll();
         }
 
