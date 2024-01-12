@@ -2,7 +2,6 @@ package _01_StacksAndQueues._02_Exercise;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.Deque;
 import java.util.Scanner;
 
 public class _09_PoisonousPlants {
@@ -11,29 +10,28 @@ public class _09_PoisonousPlants {
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.nextLine());
-		
-        int[] plants = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
 
-        Deque<Integer> prevPlants = new ArrayDeque<>();
-        prevPlants.push(0);
+        int[] plants = Arrays.stream(scanner.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
 
-        int[] days = new int[plants.length];
-        for (int x = 1; x < plants.length; x++) {
-            int maxDays = 0;
+        ArrayDeque<Integer> indexes = new ArrayDeque<>();
+        indexes.push(0);
 
-            while (!prevPlants.isEmpty() && plants[prevPlants.peek()] >= plants[x]) {
-                maxDays = Integer.max(days[prevPlants.pop()], maxDays);
+        int[] days = new int[n];
+
+        for (int i = 1; i < n; i++) {
+            int lastDay = 0;
+            while (!indexes.isEmpty() && plants[indexes.peek()] >= plants[i]) {
+                lastDay = Math.max(lastDay, days[indexes.pop()]);
             }
-
-            if (!prevPlants.isEmpty()) {
-                days[x] = maxDays + 1;
+            if (!indexes.isEmpty()) {
+                days[i] = lastDay + 1;
             }
-
-            prevPlants.push(x);
+            indexes.push(i);
         }
+        System.out.println(getLastDay(days));
+    }
 
-        System.out.println(Arrays.stream(days).max().getAsInt());
+    private static int getLastDay(int[] days) {
+        return Arrays.stream(days).filter(day -> day >= 0).max().orElse(0);
     }
 }
