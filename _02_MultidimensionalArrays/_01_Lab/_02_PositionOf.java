@@ -7,13 +7,17 @@ import java.util.Scanner;
 
 public class _02_PositionOf {
     public static void main(String[] args) {
-		
+
         Scanner scanner = new Scanner(System.in);
 
         int[][] matrix = readMatrix(scanner);
 
         int number = Integer.parseInt(scanner.nextLine());
 
+        printPositions(matrix, number);
+    }
+
+    private static void printPositions(int[][] matrix, int number) {
         ArrayList<int[]> positions = new ArrayList<>();
 
         for (int row = 0; row < matrix.length; row++) {
@@ -33,6 +37,7 @@ public class _02_PositionOf {
             }
         }
     }
+
     public static int[][] readMatrix(Scanner scanner) {
         int[] rowsAndCols = readArray(scanner.nextLine());
         int rows = rowsAndCols[0];
