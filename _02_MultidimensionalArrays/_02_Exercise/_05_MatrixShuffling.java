@@ -58,9 +58,6 @@ public class _05_MatrixShuffling {
     }
 
     private static boolean isValid(String[] commandArgs, int rows, int cols) {
-        // For a command to be valid,
-        // it should start with the "swap" keyword
-        // along with four valid coordinates (no more, no less).
         if (commandArgs.length != 5) {
             return false;
         }
