@@ -14,12 +14,12 @@ public class _07_CitiesByContinentAndCountry {
         while (n-- > 0) {
             String[] inputArr = scanner.nextLine().split(" ");
             String continent = inputArr[0];
-            String county = inputArr[1];
+            String country = inputArr[1];
             String city = inputArr[2];
 
             info.putIfAbsent(continent, new LinkedHashMap<>());
-            info.get(continent).putIfAbsent(county, new ArrayList<>());
-            info.get(continent).get(county).add(city);
+            info.get(continent).putIfAbsent(country, new ArrayList<>());
+            info.get(continent).get(country).add(city);
         }
 
         info.forEach((key, value) -> {
