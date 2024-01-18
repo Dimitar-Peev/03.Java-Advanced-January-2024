@@ -15,7 +15,7 @@ public class _03_PeriodicTable {
         int n = Integer.parseInt(scanner.nextLine()); 
       
         for (int row = 0; row < n; row++) {
-            String []chemicalElements = scanner.nextLine().split("\\s+"); 
+            String[] chemicalElements = scanner.nextLine().split("\\s+"); 
           
             for (String el : chemicalElements) {
                 uniqueElements.add(el);
