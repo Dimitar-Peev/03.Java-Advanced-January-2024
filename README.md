@@ -20,6 +20,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 ### Sets and Maps Advanced
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_03_SetsAndMapsAdvanced/_01_Lab)
+- [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_03_SetsAndMapsAdvanced/_02_Exercise)
 
 ### Streams, Files and Directories
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_04_StreamsFilesAndDirectories/_01_Lab)
