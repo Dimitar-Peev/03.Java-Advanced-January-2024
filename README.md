@@ -26,8 +26,18 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_04_StreamsFilesAndDirectories/_01_Lab)
 - [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_04_StreamsFilesAndDirectories/_02_Exercise)
 
+### Functional Programming
+
 ### Defining Classes
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_06_DefiningClasses/_01_Lab)
+
+### Workshop
+
+### Generics
+
+### Iterators and Comparators
+
+### Workshop: Algorithms Introduction
 
 ### Java Advanced - Exams
  - [Java Advanced Regular Exam - 26 Oct 2019](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/Java%20Advanced%20Regular%20Exam%20-%2026%20Oct%202019)
