@@ -42,3 +42,4 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 ### Java Advanced - Exams
  - [Java Advanced Regular Exam - 26 Oct 2019](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/Java%20Advanced%20Regular%20Exam%20-%2026%20Oct%202019)
  - [Java Advanced Regular Exam - 22 Feb 2020](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/Java%20Advanced%20Regular%20Exam%20-%2022%20Feb%202020)
+ - [Java Advanced Regular Exam - 28 June 2020](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/Java%20Advanced%20Regular%20Exam%20-%2028%20June%202020)
