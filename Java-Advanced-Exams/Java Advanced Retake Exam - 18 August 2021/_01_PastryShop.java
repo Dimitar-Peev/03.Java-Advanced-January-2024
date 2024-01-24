@@ -24,7 +24,7 @@ public class _01_PastryShop {
                 case 50: cakeCount++; break;
                 case 75: pastryCount++; break;
                 case 100: pieCount++; break;
-                default: ingredients.push(ingredient+3); break;
+                default: ingredients.push(ingredient + 3); break;
             }
         }
 
