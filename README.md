@@ -28,6 +28,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 ### Functional Programming
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_05_FunctionalProgramming/_01_Lab)
+- [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_05_FunctionalProgramming/_02_Exercise)
 
 ### Defining Classes
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_06_DefiningClasses/_01_Lab)
