@@ -43,7 +43,7 @@ public class Main {
 
         double bestAvgSalary = Integer.MIN_VALUE;
         String bestDepartment = "";
-        for (var stringDepartmentEntry : departmentMap.entrySet()) {
+        for (Map.Entry<String, Department> stringDepartmentEntry : departmentMap.entrySet()) {
             if (stringDepartmentEntry.getValue().getAverageSalary() > bestAvgSalary) {
                 bestAvgSalary = stringDepartmentEntry.getValue().getAverageSalary();
                 bestDepartment = stringDepartmentEntry.getKey();
