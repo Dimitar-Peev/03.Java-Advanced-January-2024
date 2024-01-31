@@ -14,18 +14,19 @@ public class _10_PredicateParty {
 
         names = Arrays.stream(scanner.nextLine().split("\\s+")).collect(Collectors.toList());
 
-        String line;
-        while (!"Party!".equals(line= scanner.nextLine())) {
-            String[] tokens = line.split("\\s+");
+        String input = scanner.nextLine();
+        while (!"Party!".equals(input)) {
+            String[] inputArr = input.split("\\s+");
 
-            switch (tokens[0]) {
+            switch (inputArr[0]) {
                 case "Double":
-                    addOneMore(getPredicate(tokens));
+                    addOneMore(getPredicate(inputArr));
                     break;
                 case "Remove":
-                    removeName(getPredicate(tokens));
+                    removeName(getPredicate(inputArr));
                     break;
             }
+			input = scanner.nextLine();
         }
 
         if (names.isEmpty()) {
@@ -46,18 +47,18 @@ public class _10_PredicateParty {
         names.addAll(nameToAdd);
     }
 
-    public static Predicate<String> getPredicate(String[] tokens) {
+    public static Predicate<String> getPredicate(String[] inputArr) {
         Predicate<String> predicate = null;
 
-        switch (tokens[1]) {
+        switch (inputArr[1]) {
             case "StartsWith":
-                predicate = name -> name.startsWith(tokens[2]);
+                predicate = name -> name.startsWith(inputArr[2]);
                 break;
             case "EndsWith":
-                predicate = name -> name.endsWith(tokens[2]);
+                predicate = name -> name.endsWith(inputArr[2]);
                 break;
             default:
-                predicate = name -> name.length() == Integer.parseInt(tokens[2]);
+                predicate = name -> name.length() == Integer.parseInt(inputArr[2]);
                 break;
         }
         return predicate;
