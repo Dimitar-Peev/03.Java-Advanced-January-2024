@@ -35,6 +35,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_06_DefiningClasses/_02_Exercise)
 
 ### Workshop
+- [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_07_Workshop/_02_Exercise)
 
 ### Generics
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_08_Generics/_01_Lab)
