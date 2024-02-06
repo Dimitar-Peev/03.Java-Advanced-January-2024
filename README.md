@@ -39,6 +39,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 ### Generics
 - [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_08_Generics/_01_Lab)
+- [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_08_Generics/_02_Exercise)
 
 ### Iterators and Comparators
 
