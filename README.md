@@ -42,7 +42,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_08_Generics/_02_Exercise)
 
 ### Iterators and Comparators
-- [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_09_IteratorsAndComparators/_01_Lab/_01_Book)
+- [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_09_IteratorsAndComparators/_01_Lab/)
 
 ### Workshop: Algorithms Introduction
 
