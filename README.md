@@ -46,6 +46,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Exercise](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_09_IteratorsAndComparators/_02_Exercise)
 
 ### Workshop: Algorithms Introduction
+- [Lab](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/_11_WorkshopAlgorithmsIntroduction)
 
 ### Java Advanced - Exams
  - [03. Java Advanced Regular Exam - 17 June 2023](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/03.%20Java%20Advanced%20Regular%20Exam%20-%2017%20June%202023)
