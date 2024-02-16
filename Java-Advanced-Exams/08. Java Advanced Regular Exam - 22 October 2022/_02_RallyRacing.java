@@ -38,7 +38,6 @@ public class _02_RallyRacing {
                 kilometersPassed += 10;
             } else if (matrix[row][col] == 'T') { 
                 matrix[row][col] = '.';  
-                findAnotherTunnel(matrix, tunnel); 
                 row = tunnel[0]; 
                 col = tunnel[1]; 
                 kilometersPassed += 30;
@@ -67,16 +66,6 @@ public class _02_RallyRacing {
         return matrix;
     }
 
-    private static void findAnotherTunnel(char[][] matrix, int[] tunnel) {
-        for (int row = 0; row < matrix.length; row++) {
-            for (int col = 0; col < matrix[row].length; col++) {
-                if (matrix[row][col] == 'O') {
-                    tunnel[0] = row;
-                    tunnel[1] = col;
-                }
-            }
-        }
-    }
 
     private static int[] findTunnel(char[][] matrix) {
         int[] tunnel = new int[2];
