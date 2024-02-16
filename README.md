@@ -50,6 +50,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 ### Java Advanced - Exams
  - [03. Java Advanced Regular Exam - 17 June 2023](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/03.%20Java%20Advanced%20Regular%20Exam%20-%2017%20June%202023)
+ - [08. Java Advanced Regular Exam - 22 October 2022](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/08.%20Java%20Advanced%20Regular%20Exam%20-%2022%20October%202022)
  - [09. Java Advanced Retake Exam - 18 August 2022](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/09.%20Java%20Advanced%20Retake%20Exam%20-%2018%20August%202022)
  - [10. Java Advanced Regular Exam - 25 June 2022](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/10.%20Java%20Advanced%20Regular%20Exam%20-%2025%20June%202022)
  - [11. Java Advanced Retake Exam - 13 April 2022](https://github.com/Dimitar-Peev/03.Java-Advanced-January-2024/tree/main/Java-Advanced-Exams/11.%20Java%20Advanced%20Retake%20Exam%20-%2013%20April%202022)
