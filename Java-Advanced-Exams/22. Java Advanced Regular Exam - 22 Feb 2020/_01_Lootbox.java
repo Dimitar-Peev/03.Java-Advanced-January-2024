@@ -6,17 +6,13 @@ public class _01_Lootbox {
         Scanner scanner = new Scanner(System.in);
 
         int[] firstLine = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-
         Queue<Integer> firstLootBox = new ArrayDeque<>();
-
         for (int num : firstLine) {
             firstLootBox.offer(num);
         }
-//------------------------------------------------------------------------------------------------------------------
+
         int[] secondLine = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-
         Deque<Integer> secondLootBox = new ArrayDeque<>();
-
         for (int num : secondLine) {
             secondLootBox.push(num);
         }
@@ -33,7 +29,7 @@ public class _01_Lootbox {
                 firstLootBox.offer(secondLootBox.pop());
             }
         }
-
+//------------------------------------------------------------------------------------------------------------------
 
         if (firstLootBox.isEmpty()) {
             System.out.println("First lootbox is empty");
