@@ -79,16 +79,16 @@ public class _02_TreasureHunt {
     }
 
     private static int[] locateHunter(char[][] field) {
-        int[] seller = new int[2];
+        int[] position  = new int[2];
         for (int row = 0; row < field.length; row++) {
             for (int col = 0; col < field[row].length; col++) {
                 if (field[row][col] == 'Y') {
-                    seller[0] = row;
-                    seller[1] = col;
+                    position [0] = row;
+                    position [1] = col;
                 }
             }
         }
-        return seller;
+        return position ;
     }
 
     private static boolean isOutOfBounds(int row, int col, char[][] field) {
